@@ -1,4 +1,4 @@
-![](https://lh4.googleusercontent.com/-PVw-ZUM9vV8/UuWeH51os0I/AAAAAAAAD6M/0Ikg7viJftQ/w1286-h566-no/hackathon-starter-logo.jpg)
+<!-- ![](https://lh4.googleusercontent.com/-PVw-ZUM9vV8/UuWeH51os0I/AAAAAAAAD6M/0Ikg7viJftQ/w1286-h566-no/hackathon-starter-logo.jpg)
 Hackathon Starter
 =======================
 
@@ -519,7 +519,6 @@ Recommended Design Resources
 - [Medium Scroll Effect](http://codepen.io/andreasstorm/pen/pyjEh) - Fade in/out header background image as you scroll.
 - [GeoPattern](https://github.com/btmills/geopattern) - SVG background pattern generator.
 - [Trianglify](https://github.com/qrohlf/trianglify) - SVG low-poly background pattern generator.
-
 
 Recommended Node.js Libraries
 -----------------------------
@@ -1300,7 +1299,6 @@ docker-compose up web
 
 To view the app, find your docker IP address + port 8080 ( this will typically be http://localhost:8080/ ).  To use a port other than 8080, you would need to modify the port in app.js, Dockerfile, and docker-compose.yml.
 
-
 Deployment
 ----------
 
@@ -1344,7 +1342,6 @@ Please note that you may also use the [Herko Dashboard](https://dashboard.heroku
 - In the new screen, select **Node.js** as Driver and version **3.6 or later**.
 - Finally, copy the URI connection string and replace the URI in MONGODB_URI of `.env.example` with this URI string.  Make sure to replace the <PASSWORD> with the db User password that you created under the Security tab.
 - Note that after some of the steps in the Atlas UI, you may see a banner stating `We are deploying your changes`.  You will need to wait for the deployment to finish before using the DB in your application.
-
 
 **Note:** As an alternative to MongoDB Atlas, there is also [Compose](https://www.compose.io/).
 
@@ -1451,7 +1448,6 @@ Add this to `package.json`, after *name* and *version*. This is necessary becaus
   $ cf create-service compose-for-mongodb Standard [your-service-name]'
   ```
 
-
 1. Push the application
 
     ```
@@ -1469,10 +1465,8 @@ Add this to `package.json`, after *name* and *version*. This is necessary becaus
 [More Bluemix samples](https://ibm-bluemix.github.io/)
 [Simple ToDo app in a programming language of your choice](https://github.com/IBM-Bluemix/todo-apps)
 
-
 ### IBM Watson
 Be sure to check out the full list of Watson services to forwarder enhance your application functionality with a little effort. Watson services are easy to get going; it is simply a RESTful API call. Here is an example of a [Watson Toner Analyzer](https://tone-analyzer-demo.mybluemix.net/) to understand the emotional context of a piece of text that you send to Watson.
-
 
 #### Watson catalog of services
 
@@ -1496,10 +1490,7 @@ Be sure to check out the full list of Watson services to forwarder enhance your 
 
 **<img src="https://1.cms.s81c.com/sites/default/files/2019-02-21/1_VisualRecognitionHero.png" width="25"> [Visual Recognition](https://www.ibm.com/watson/services/visual-recognition/)** - Tag, classify and search visual content using machine learning.
 
-
-
 [Click here](https://www.ibm.com/watson/developercloud/services-catalog.html) for live demos of each Watson service.
-
 
 ---
 
@@ -1536,7 +1527,6 @@ Changelog
 
 You can find the changelog for the project in: [CHANGELOG.md](https://github.com/sahat/hackathon-starter/blob/master/CHANGELOG.md)
 
-
 Contributing
 ------------
 
@@ -1561,4 +1551,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
+ -->
